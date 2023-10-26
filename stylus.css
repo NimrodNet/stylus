@@ -1,0 +1,56 @@
+/* 
+Stylus.css jest to rozszerzenie, które zawiera w sobie
+komponenty HTML, jak przyciski, tekst, itd.
+ */
+
+body {
+cursor: default;
+}
+
+/* Przyciski */
+.przycisk {
+
+padding: 10px;
+color:black;
+width: fit-content;
+background-color: white;
+text-align: center;
+text-decoration: none;
+
+}
+
+.czerwony.przycisk { background-color: red; }
+.niebieski.przycisk {background-color: blue; }
+.zielony.przycisk { background-color: green; }
+
+.bialo.czerwony.przycisk {color: white; background-color: red;}
+.czerwono.bialy.przycisk {color: red; background-color: white;}
+.bialo.zielony.przycisk {color:white; background-color: green;}
+.zielono.bialy.przycisk {color: green; background-color: while;}
+.niebiesko.bialy.przycisk {color: blue; background-color: white;}
+.bialo.niebieski.przycisk {color: white; background-color: blue;}
+
+.zaokraglony.przycisk {
+padding: 10px;
+width: fit-content;
+color: black;
+background-color: white;
+text-align: center;
+text-decoration: none;
+border-radius: 5px;
+}
+
+.niebieski.zaokraglony.przycisk { background-color: blue; }
+.czerwony.zaokraglony.przycisk { background-color: red; }
+.zielony.zaokraglony.przycisk { background-color: green; }
+.bialo.niebieski.zaokraglony.przycisk 
+{ color: white; background-color: blue;}
+.niebiesko.bialy.zaokgralony.przycisk
+{color: blue; background-color: white;}
+
+/* Tekst */
+.bialy.tekst { color: white; }
+.czarny.tekst {color: black; }
+.czerwony.tekst { color: red; }
+.niebieski.tekst {color: blue;}
+.zielony.tekst {color: green;}
