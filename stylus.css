@@ -3,23 +3,11 @@ Stylus.css jest to rozszerzenie, które zawiera w sobie
 komponenty HTML, jak przyciski, tekst, itd.
  */
 
-body {
-cursor: default;
-}
+@import url("moduly/body.css");
+@import url("moduly/przycisk.css");
+@import url("moduly/obrys.css");
+@import url("moduly/kontener.css");
 
-/* Przyciski */
-.przycisk {
-
-padding: 10px;
-color:black;
-width: fit-content;
-background-color: white;
-text-align: center;
-text-decoration: none;
-
-}
-
-.czerwony.przycisk { background-color: red; }
 .niebieski.przycisk {background-color: blue; }
 .zielony.przycisk { background-color: green; }
 
@@ -54,3 +42,36 @@ border-radius: 5px;
 .czerwony.tekst { color: red; }
 .niebieski.tekst {color: blue;}
 .zielony.tekst {color: green;}
+
+/* Szerokość */
+.szerokosc-10 {width: 10%;} .szerokosc-20 {width: 20%;} 
+.szerokosc-30 {width: 30%;} .szerokosc-40 {width: 40%;}
+.szerokosc-50 {width: 50%;} .szerokosc-60 {width: 60%;}
+.szerokosc-70 {width: 70%;} .szerokosc-80 {width: 80%;}
+.szerokosc-90 {width: 90%;} .szerokosc-100{width: 100%;}
+
+/* Responsywność */
+.responsywny {max-width: 100%; height: auto;}
+
+/* Prostokąt */
+.prostokat{
+width: fit-content;
+text-decoration: none;
+text-align: left;
+}
+
+.niebieski.prostokat {
+background-color: blue;
+}
+
+/* Tekst */
+
+.tekst.po-lewej {
+text-align: left;
+}
+
+.tekst.na-srodku {
+text-align:center;
+}
+
+.tekst.po-prawej {text-align: right;}
