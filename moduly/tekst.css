@@ -1,0 +1,10 @@
+/* Tekst */
+.bialy.tekst { color: white; }
+.czarny.tekst {color: black; }
+.czerwony.tekst { color: red; }
+.niebieski.tekst {color: blue;}
+.zielony.tekst {color: green;}
+
+.tekst.po-lewej { text-align: left; }
+.tekst.na-srodku { text-align:center; }
+.tekst.po-prawej {text-align: right;}

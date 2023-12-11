@@ -1,0 +1,8 @@
+.nawigacja {
+padding: 0px;
+}
+
+.nawigacja li {
+display: inline;
+text-decoration: none;
+}

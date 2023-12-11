@@ -3,75 +3,16 @@ Stylus.css jest to rozszerzenie, które zawiera w sobie
 komponenty HTML, jak przyciski, tekst, itd.
  */
 
-@import url("moduly/body.css");
+@import url("moduly/body.css"); 
 @import url("moduly/przycisk.css");
+@import url("moduly/zaokraglony-przycisk.css");
 @import url("moduly/obrys.css");
 @import url("moduly/kontener.css");
-
-.niebieski.przycisk {background-color: blue; }
-.zielony.przycisk { background-color: green; }
-
-.bialo.czerwony.przycisk {color: white; background-color: red;}
-.czerwono.bialy.przycisk {color: red; background-color: white;}
-.bialo.zielony.przycisk {color:white; background-color: green;}
-.zielono.bialy.przycisk {color: green; background-color: while;}
-.niebiesko.bialy.przycisk {color: blue; background-color: white;}
-.bialo.niebieski.przycisk {color: white; background-color: blue;}
-
-.zaokraglony.przycisk {
-padding: 10px;
-width: fit-content;
-color: black;
-background-color: white;
-text-align: center;
-text-decoration: none;
-border-radius: 5px;
-}
-
-.niebieski.zaokraglony.przycisk { background-color: blue; }
-.czerwony.zaokraglony.przycisk { background-color: red; }
-.zielony.zaokraglony.przycisk { background-color: green; }
-.bialo.niebieski.zaokraglony.przycisk 
-{ color: white; background-color: blue;}
-.niebiesko.bialy.zaokgralony.przycisk
-{color: blue; background-color: white;}
-
-/* Tekst */
-.bialy.tekst { color: white; }
-.czarny.tekst {color: black; }
-.czerwony.tekst { color: red; }
-.niebieski.tekst {color: blue;}
-.zielony.tekst {color: green;}
-
-/* Szerokość */
-.szerokosc-10 {width: 10%;} .szerokosc-20 {width: 20%;} 
-.szerokosc-30 {width: 30%;} .szerokosc-40 {width: 40%;}
-.szerokosc-50 {width: 50%;} .szerokosc-60 {width: 60%;}
-.szerokosc-70 {width: 70%;} .szerokosc-80 {width: 80%;}
-.szerokosc-90 {width: 90%;} .szerokosc-100{width: 100%;}
-
-/* Responsywność */
-.responsywny {max-width: 100%; height: auto;}
-
-/* Prostokąt */
-.prostokat{
-width: fit-content;
-text-decoration: none;
-text-align: left;
-}
-
-.niebieski.prostokat {
-background-color: blue;
-}
-
-/* Tekst */
-
-.tekst.po-lewej {
-text-align: left;
-}
-
-.tekst.na-srodku {
-text-align:center;
-}
-
-.tekst.po-prawej {text-align: right;}
+@import url("moduly/tekst.css");
+@import url("moduly/nawigacja.css");
+@import url("moduly/grafika.css");
+@import url("moduly/zaokraglenie-rogow.css");
+@import url("moduly/responsywnosc.css");
+@import url("moduly/wymiary.css");
+@import url("moduly/prostokat.css");
+@import url("moduly/rozne/pozioma-grafika.css");

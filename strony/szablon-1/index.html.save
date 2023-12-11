@@ -1,0 +1,25 @@
+<html>
+<head>
+
+<title>Stylus | Szablon 1</title>
+<link rel="stylesheet" href="../../stylus.css">
+
+</head>
+
+<body>
+
+<h1>Szablon 1</h1>
+
+<div>
+
+<a class="" href="#">Strona główna</a>
+
+</div>
+
+<p>
+
+</p>
+
+</body>
+
+</html>

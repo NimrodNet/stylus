@@ -1,0 +1,10 @@
+.grafika {
+position: relative;
+text-align: center;
+}
+
+.tekst-po-lewej {
+position: absolute;
+bottom: 8px;
+left: 16px;
+}

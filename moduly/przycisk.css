@@ -4,3 +4,12 @@ background-color: white; text-align: center; text-decoration: none;
 }
 
 .czerwony.przycisk { background-color: red; }
+.niebieski.przycisk {background-color: blue; }
+.zielony.przycisk { background-color: green; }
+
+.bialo.czerwony.przycisk {color: white; background-color: red;}
+.czerwono.bialy.przycisk {color: red; background-color: white;}
+.bialo.zielony.przycisk {color:white; background-color: green;}
+.zielono.bialy.przycisk {color: green; background-color: while;}
+.niebiesko.bialy.przycisk {color: blue; background-color: white;}
+.bialo.niebieski.przycisk {color: white; background-color: blue;}

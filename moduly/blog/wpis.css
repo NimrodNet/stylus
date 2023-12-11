@@ -1,0 +1,63 @@
+wpisy {
+width: 90%;
+outline-style: none;
+display: block;
+margin: 0 auto;
+}
+
+wpis {
+width: 400px;
+max-width: 400px;
+text-decoration: none;
+color: black;
+display: inline-block;
+vertical-align: top;
+margin-left: 5px;
+margin-bottom: 7px;
+outline-style: solid;
+outline-width: 0.0em;
+border-radius: 5px;
+}
+
+wpis opis {
+display: block;
+margin-top: 5px;
+margin-left: 5px;
+margin-right: 5px;
+padding: 5px;
+}
+
+wpis img { 
+max-width: 400px; 
+height: auto; 
+border-radius: 8px;
+}
+
+wpis tytul {
+display: block;
+margin-top: 4px;
+margin-left: 5px;
+margin-right: 5px;
+text-decoration: none;
+font-size: 25px;
+color: black;
+}
+
+wpis opis {
+display: block;
+text-decoration: none;
+font-size: 20px;
+color: black;
+}
+
+wpis .przycisk {
+background-color: #0091e4;
+color: white;
+padding: 10px;
+text-decoration: none;
+display: inline-block;
+border-radius: 5px;
+margin-left: 5px;
+margin-right: 5px;
+margin-bottom: 5px;
+}

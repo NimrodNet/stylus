@@ -96,33 +96,8 @@ szerokości.</p>
 
 <h1>Różne</h1>
 
-<div class="wpisy">
-<img src="img/malpa-1.jpeg"/>
-<img src="img/malpa-1.jpeg"/>
-<img src="img/malpa-1.jpeg"/>
-<img src="img/malpa-1.jpeg"/>
-<img src="img/malpa-1.jpeg"/>
-<img src="img/malpa-1.jpeg"/>
-<img src="img/malpa-1.jpeg"/>
-</div>
-
-<h2>Grafika jako link</h2>
-<div class="wpisy">
-<a href="#"> <img src="img/malpa-1.jpeg" /> </a>
-</div>
-
-<h2>Wpisy</h2>
-
-<div class="wpisy">
-
-<div class="wpis">
-
-<img src="img/malpa-1.jpeg" />
-<h1>To jest małpa to jest małpa</h1>
-
-</div>
-
-</div>
+<img class="responsywny pozioma-grafika" src="img/malpa.jpeg" />
+<img class="responsywny pozioma-grafika" src="img/malpa.jpeg" />
 
 </body>
 

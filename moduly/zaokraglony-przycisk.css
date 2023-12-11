@@ -1,0 +1,17 @@
+.zaokraglony.przycisk {
+padding: 10px;
+width: fit-content;
+color: black;
+background-color: white;
+text-align: center;
+text-decoration: none;
+border-radius: 5px;
+}
+
+.niebieski.zaokraglony.przycisk { background-color: blue; }
+.czerwony.zaokraglony.przycisk { background-color: red; }
+.zielony.zaokraglony.przycisk { background-color: green; }
+.bialo.niebieski.zaokraglony.przycisk 
+{ color: white; background-color: blue;}
+.niebiesko.bialy.zaokgralony.przycisk
+{color: blue; background-color: white;}
