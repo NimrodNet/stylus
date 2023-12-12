@@ -1,0 +1,30 @@
+ul.nawigacja {
+list-style-type: none;
+display: inline;
+}
+
+nawigacja {
+display: block;
+width: 90%;
+margin: 0 auto;
+outline-style: none;
+font-size: 19px;
+margin-bottom: 10px;
+padding: 10px;
+text-decoration: none;
+}
+
+nawigacja a {
+text-decoration: none;
+text-align: center;
+color: black;
+margin-right: 3px;
+padding: 8px;
+border-radius: 5px;
+outline-style: none;
+}
+
+nawigacja a:hover {
+color: white;
+background-color: #0091e4;
+}
