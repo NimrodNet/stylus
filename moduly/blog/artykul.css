@@ -1,22 +1,27 @@
 artykul {
 width: 1200px;
 max-width: 1200px;
-display: block;
 margin: 0 auto;
 outline-style: none;
+margin-left: auto;
+margin-right: auto;
 }
 
 artykul img {
+max-width: 100%;
 width: 800px;
-max-wdith: 800px;
+height: auto;
 display: block;
 margin: 0 auto;
 }
 
 artykul tekst {
 width: 1200px;
-max-width: 1200px;
+max-width: 100%;
+height: auto;
 font-size: 19px;
+display: block;
+margin: 0 auto;
 }
 
 artykul h1 {
